@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/zadanie-rek/static/css/main.b100e6da.chunk.css",
-    "main.js": "/zadanie-rek/static/js/main.6543a157.chunk.js",
-    "main.js.map": "/zadanie-rek/static/js/main.6543a157.chunk.js.map",
+    "main.js": "/zadanie-rek/static/js/main.a3eeb872.chunk.js",
+    "main.js.map": "/zadanie-rek/static/js/main.a3eeb872.chunk.js.map",
     "runtime-main.js": "/zadanie-rek/static/js/runtime-main.4df28dac.js",
     "runtime-main.js.map": "/zadanie-rek/static/js/runtime-main.4df28dac.js.map",
-    "static/js/2.6682f26f.chunk.js": "/zadanie-rek/static/js/2.6682f26f.chunk.js",
-    "static/js/2.6682f26f.chunk.js.map": "/zadanie-rek/static/js/2.6682f26f.chunk.js.map",
+    "static/js/2.3a566399.chunk.js": "/zadanie-rek/static/js/2.3a566399.chunk.js",
+    "static/js/2.3a566399.chunk.js.map": "/zadanie-rek/static/js/2.3a566399.chunk.js.map",
     "index.html": "/zadanie-rek/index.html",
-    "precache-manifest.fec89ae775feb1af93c4ac12f7721355.js": "/zadanie-rek/precache-manifest.fec89ae775feb1af93c4ac12f7721355.js",
-    "service-worker.js": "/zadanie-rek/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/zadanie-rek/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/zadanie-rek/static/media/logo.25bf045c.svg"
+    "precache-manifest.61ac5022cf423e1c823950d7496b5969.js": "/zadanie-rek/precache-manifest.61ac5022cf423e1c823950d7496b5969.js",
+    "service-worker.js": "/zadanie-rek/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.4df28dac.js",
-    "static/js/2.6682f26f.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.6543a157.chunk.js"
+    "static/js/2.3a566399.chunk.js",
+    "static/js/main.a3eeb872.chunk.js"
   ]
 }
