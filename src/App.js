@@ -8,7 +8,7 @@ import GlobalStyle from './GlobalStyle';
 
 const App = () => {
   return (
-        <BrowserRouter basename="pages">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Route path="/" exact component={LandingPage} />
           <Route path="/galery" exact component={GalleryPage} />
           <GlobalStyle/>

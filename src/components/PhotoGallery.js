@@ -13,7 +13,7 @@ const Wrapper = styled.div`
         margin-left: auto;
         margin-right: auto;
         flex-wrap: wrap;
-            justify-content: center;
+        justify-content: center;
     div {
         display: block;
         margin: 15px;
@@ -32,23 +32,22 @@ const PhotoGalley = () => {
 
 const [characters, setCharacters] = useState([])
 
-
   useEffect(() => {
           fetch("https://swapi.co/api/people/")
       .then(res => res.json())
-      .then(json => setCharacters(json.results));
-  },[]);
+      .then(json => setCharacters(json.results))
+      .catch(err => console.log(err));
+  }, []);
 
   const people = (characters.map((props) => (
           <p key={props.name}>
             {props.name}
           </p>
         )));
+
 const items = [];
 
-for(let i = 0; i < people.length; i++){
-    items.push([<div key={i}>{photos[i]}{people[i]}</div>]);
-}
+ people.forEach((e, i) => { items.push(<div key={i}>{photos[i]}{people[i]}</div>)});
 
   return (
     <Wrapper>

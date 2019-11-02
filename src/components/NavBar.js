@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 const Nav = styled.nav`
     a {
     text-decoration: none;
-}
+    color: black;
+    }
 li {
     list-style-type:none;
     margin: 20px;
